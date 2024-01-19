@@ -17,11 +17,11 @@ pip3 install simple-pid
 
 # Installation :
 Download the fan_control.py from this repos
-Navigate to the file and run: python3 fan_control.py
-For running without keep terminal try to use screen or nohup, etc:
+- Navigate to the file and run: python3 fan_control.py
+- For running without keep terminal try to use screen or nohup, etc:
 sudo apt-get install screen
 screen
-# Navigate to the python script
+- Navigate to the python script
 Run the script like previous step
 Now ctl + A and then D to quit the screen. It shuold works without the terminal
 To retach the screen run: screen -R
