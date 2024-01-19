@@ -18,7 +18,7 @@ pip3 install simple-pid
 # Installation :
 Download the fan_control.py from this repos
 Navigate to the file and run: python3 fan_control.py
-For running without keep terminal try to use screen or nohup, etc
+For running without keep terminal try to use screen or nohup, etc:
 sudo apt-get install screen
 screen
 # Navigate to the python script
