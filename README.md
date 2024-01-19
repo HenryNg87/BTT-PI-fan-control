@@ -1,14 +1,14 @@
 # BTT-PI-fan-control
 Fan control with python script
 
-***Requiement****
+#Requiement****
 sudo apt update
 sudo apt install gpiod
 
 # Test the fan
 gpioset gpiochip0 211=1
 
-###### Install python3 and python3-libgpiod
+# Install python3 and python3-libgpiod
 sudo apt install python3 python3-pip
 sudo apt install python3-libgpiod
 
