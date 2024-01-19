@@ -15,7 +15,7 @@ sudo apt install python3-libgpiod
 # simple-pid library
 pip3 install simple-pid
 
-#Installation :
+# Installation :
 Download the fan_control.py from this repos
 Navigate to the file and run: python3 fan_control.py
 For running without keep terminal try to use screen or nohup, etc
