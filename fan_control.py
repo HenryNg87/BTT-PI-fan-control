@@ -10,7 +10,7 @@ TARGET_TEMP = 50.0  # Target CPU temperature in Celsius
 UPDATE_INTERVAL = 5  # Interval to update fan speed in seconds
 
 # Initialize PID controller
-pid = PID(1.0, 0.1, 0.05, setpoint=TARGET_TEMP)
+pid = PID(1.0, 0.5, 2.0, setpoint=TARGET_TEMP)
 pid.output_limits = (0, 1)  # Output value will be between 0 and 1
 
 def get_cpu_temp():
