@@ -1,7 +1,7 @@
 # BTT-PI-fan-control
 Fan control with python script
 
-#Requiement****
+# Install Requiement
 sudo apt update
 sudo apt install gpiod
 
