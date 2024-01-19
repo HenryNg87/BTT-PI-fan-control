@@ -12,7 +12,7 @@ gpioset gpiochip0 211=1
 sudo apt install python3 python3-pip
 sudo apt install python3-libgpiod
 
-#simple-pid library
+# simple-pid library
 pip3 install simple-pid
 
 #Installation :
